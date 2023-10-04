@@ -1,0 +1,121 @@
+header {
+  background-color: #3500f3;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+header img {
+  width: auto;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#highlight {
+  padding: 20px;
+  border: 1px solid #111010;
+  margin: 20px;
+  background-color: #91c6f2;
+  font-size: 20px;
+}
+
+#info-penting {
+  padding: 20px;
+  border: 1px solid #122913;
+  margin: 20px;
+  background-color: #f9f9f9;
+  font-size: 15px;
+}
+
+#harga-tiket {
+  padding: 20px;
+  border: 1px solid #000000;
+  margin: 20px;
+  background-color: #009dff;
+}
+#tiket {
+  padding: 20px;
+  border: 1px solid #122913;
+  margin: 20px;
+  background-color: #f9f9f9;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+#social-media {
+  padding: 20px;
+  border: 1px solid #0914ed;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.tiket {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 1rem;
+  background-color: rgb(136, 199, 255);
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.tiket div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.tiket div button{
+  height: 2.5rem;
+  width: 10rem;
+  border: none;
+  border-radius: .3rem;
+  color: white;
+  background-color: blue;
+}
+
+.tiket .tiket-atas {
+  border-bottom: 2px dashed rgb(0, 0, 0);
+}
